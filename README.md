@@ -100,7 +100,7 @@ const WrappedListComponent = ({items}) => {
   };
   
   WrappedListComponent.defaultProps = {
-    items: null,
+    items: [{text:"List1"},{text:"List2"},{text:"List3"}],
   };
   
   const List = memo(WrappedListComponent);
